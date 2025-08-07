@@ -6,6 +6,9 @@
   <remote  name="pix106"
            fetch="https://github.com/pix106"
            revision="refs/heads/12-4.19" />
+  <remote  name="spidy"
+           fetch="https://github.com/ImSpiDy"
+           revision="refs/heads/13" />  
   
   <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="android_hardware_qcom_display" />
@@ -18,6 +21,6 @@
   <project path="device/xiaomi/sdm660-common" remote="pix106" name="android_device_xiaomi_sdm660-common" revision="12-4.19" />
   <project path="vendor/xiaomi/lavender" remote="pix106" name="android_vendor_xiaomi_lavender" revision="12-4.19" />    
   <project path="vendor/xiaomi/sdm660-common" remote="pix106" name="android_vendor_xiaomi_sdm660-common" revision="12-4.19" />    
-  <project path="kernel/xiaomi/sdm660" remote="pix106" name="android_kernel_xiaomi_southwest-4.19" revision="main" />
+  <project path="kernel/xiaomi/sdm660" remote="spidy" name="kernel_xiaomi_lavender" revision="13" />
   <project path="hardware/xiaomi" remote="arrow-devices" name="android_hardware_xiaomi" revision="arrow-12.1" />
 </manifest>
